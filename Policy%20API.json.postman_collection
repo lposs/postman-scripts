@@ -1,0 +1,334 @@
+{
+	"id": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+	"name": "Policy API",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "7d7214b9-a001-0c21-6833-bb40122a7d90",
+			"name": "Application Types",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16991,
+			"order": [
+				"b2a4abeb-521f-f29e-8a7b-6599a3d74c55"
+			]
+		},
+		{
+			"id": "71be17a5-6631-558f-f98f-6cfbba82cdd7",
+			"name": "Applications",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16987,
+			"order": [
+				"2e3b3101-6126-2fcf-3fac-710fbff6dece"
+			]
+		},
+		{
+			"id": "5073493d-3c58-11f6-0c4e-a275cfa856e1",
+			"name": "Condition Types",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16986,
+			"order": [
+				"948c4df7-3300-ff73-4371-26d500148b47"
+			]
+		},
+		{
+			"id": "7232fbfd-9420-ab13-dcea-179c09cfd771",
+			"name": "Decision Combiners",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16988,
+			"order": [
+				"43a84827-bd5f-6cab-a793-510f1c8ca275"
+			]
+		},
+		{
+			"id": "4021d3b6-cdd8-bd0e-48a5-88e99e1a30d6",
+			"name": "Policies",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16983,
+			"order": [
+				"6d281210-40e8-58a8-1a0b-4b1e820ecaae"
+			]
+		},
+		{
+			"id": "ff6dc8df-9017-6b25-4f8a-06c622f64b91",
+			"name": "Realms",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 228294,
+			"order": [
+				"27ecc432-0477-ab1c-2f42-896f74b2f64b"
+			]
+		},
+		{
+			"id": "3254a75b-d8f2-9206-9e43-7af6453ed678",
+			"name": "Referrals",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16979,
+			"order": [
+				"d4fe144f-8e8b-4750-ab97-1880b635cf83"
+			]
+		},
+		{
+			"id": "2eb48723-afe3-cab7-5505-1deb345e3c9f",
+			"name": "Resource Types",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16978,
+			"order": [
+				"3816533d-81a4-a35e-0a0e-52f6ec788262"
+			]
+		},
+		{
+			"id": "349adb33-3062-d26a-72db-75fd004fdc68",
+			"name": "Subject Attributes",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16981,
+			"order": [
+				"2c9a4690-be25-e54f-5641-150437734b32"
+			]
+		},
+		{
+			"id": "064e2e01-0c2a-c2b4-e4b0-9930318a2f71",
+			"name": "Subject Types",
+			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16976,
+			"order": [
+				"1f7a27de-de0d-028d-e3ad-2309c281e311"
+			]
+		}
+	],
+	"timestamp": 0,
+	"owner": "246",
+	"remoteLink": null,
+	"public": false,
+	"requests": [
+		{
+			"id": "1f7a27de-de0d-028d-e3ad-2309c281e311",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query the available subject types",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/subjecttypes?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "064e2e01-0c2a-c2b4-e4b0-9930318a2f71",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "27ecc432-0477-ab1c-2f42-896f74b2f64b",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query policy referrals",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/realms?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "ff6dc8df-9017-6b25-4f8a-06c622f64b91",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "2c9a4690-be25-e54f-5641-150437734b32",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query the subject attributes endpoint.",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/subjectattributes?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "349adb33-3062-d26a-72db-75fd004fdc68",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "2e3b3101-6126-2fcf-3fac-710fbff6dece",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query applications",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/applications?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "71be17a5-6631-558f-f98f-6cfbba82cdd7",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "3816533d-81a4-a35e-0a0e-52f6ec788262",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query the resource types",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/resourcetypes?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "2eb48723-afe3-cab7-5505-1deb345e3c9f",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "43a84827-bd5f-6cab-a793-510f1c8ca275",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query the decision combiners endpoint for all items.",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/decisioncombiners?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "7232fbfd-9420-ab13-dcea-179c09cfd771",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "6d281210-40e8-58a8-1a0b-4b1e820ecaae",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "List all the policies",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/policies?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "4021d3b6-cdd8-bd0e-48a5-88e99e1a30d6",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "948c4df7-3300-ff73-4371-26d500148b47",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query all condition types",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/conditiontypes?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "5073493d-3c58-11f6-0c4e-a275cfa856e1",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "b2a4abeb-521f-f29e-8a7b-6599a3d74c55",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query application types",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/applicationtypes?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "7d7214b9-a001-0c21-6833-bb40122a7d90",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		},
+		{
+			"id": "d4fe144f-8e8b-4750-ab97-1880b635cf83",
+			"name": "Query",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Query policy referrals",
+			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/json/referrals?_queryFilter=true",
+			"preRequestScript": "",
+			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "3254a75b-d8f2-9206-9e43-7af6453ed678",
+			"collectionId": "bce49535-cebd-ac42-493c-0f2ca10e0c30",
+			"isFromCollection": true
+		}
+	]
+}

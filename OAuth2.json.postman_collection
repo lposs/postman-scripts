@@ -19,52 +19,52 @@
 			"name": "Device Flow",
 			"description": "",
 			"order": [
-				"5fb1b996-dcc7-7a90-469d-672efd314d70",
-				"8c8cc60c-87d2-feb8-e86d-f2e9560f5746"
+				"16b00119-54fc-6c95-7d67-2a2142ae465b",
+				"5fb1b996-dcc7-7a90-469d-672efd314d70"
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 16866,
 			"id": "abca3e5b-dc5d-2f1d-6916-386a567533cb",
 			"name": "Grants",
 			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16866,
 			"order": [
 				"644392df-3167-8caa-faa3-6abc89bcb425",
 				"40657607-b2b9-81f6-4cdf-25936c5074b6"
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 3541890,
 			"id": "a8194065-77a5-989d-a260-2f3ce07436d6",
 			"name": "OpenID Connect Dynamic Client Registration",
 			"description": "",
 			"order": [
 				"1f9c78b5-6478-1cc5-564a-57b68bf11faf"
-			]
+			],
+			"owner": "246",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "271",
-			"lastRevision": 77118,
 			"id": "529eeee3-ce44-7af0-abdf-f5a493c04014",
 			"name": "Token CREST",
 			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "271",
+			"lastRevision": 77118,
 			"order": [
 				"433e0e85-ada6-0552-e502-f452a63c18ff",
-				"27ad9c8c-9712-00cd-8fa6-1d8c21adce77"
+				"27ad9c8c-9712-00cd-8fa6-1d8c21adce77",
+				"40b658f1-ba06-6ae8-9b9b-2018efc9e095"
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 256736,
 			"id": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"name": "Token Introspection",
 			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 256736,
 			"order": [
 				"f16e365d-a78e-edf6-92ed-a926ca5da766",
 				"f012237e-a7ae-d4d3-57b3-1b2a095ea631",
@@ -76,12 +76,12 @@
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "247",
-			"lastRevision": 256739,
 			"id": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"name": "UMA CREST",
 			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "247",
+			"lastRevision": 256739,
 			"order": [
 				"c644d1d4-57a3-73c4-6e54-7ff1fde8ace2",
 				"ee90073f-98b4-d756-34f6-40f2228ebee2",
@@ -94,9 +94,6 @@
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 1261910,
 			"id": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"name": "UMA",
 			"description": "",
@@ -108,7 +105,13 @@
 				"6b35aaf2-bd7a-f573-1d8a-b0d3b4ca1b71",
 				"eaf1174d-51b9-b9e7-21bd-605b52624c9e",
 				"356dec90-1492-03d1-cf77-b02e80d756da"
-			]
+			],
+			"owner": "246",
+			"lastUpdatedBy": {
+				"id": "246",
+				"username": "James Phillpotts"
+			},
+			"lastRevision": 16863
 		},
 		{
 			"owner": "246",
@@ -125,12 +128,12 @@
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 16865,
 			"id": "5b700350-6588-d159-662c-2880831c092c",
 			"name": "UMA Policy",
 			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16865,
 			"order": [
 				"d6424dc5-8398-30b5-8ffa-46d201d8ee4c",
 				"e0fde3ad-603b-b9fd-332f-0b5d5e0b6dda",
@@ -140,12 +143,12 @@
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 16861,
 			"id": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"name": "UMA ResourceSet",
 			"description": "",
+			"owner": "246",
+			"lastUpdatedBy": "246",
+			"lastRevision": 16861,
 			"order": [
 				"99fac88d-435b-fa66-3d6d-c71ed57e0e42",
 				"f08926e2-acb3-1faa-5591-abc5d080b064",
@@ -155,9 +158,6 @@
 			]
 		},
 		{
-			"owner": "246",
-			"lastUpdatedBy": "246",
-			"lastRevision": 1705527,
 			"id": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"name": "UMA/OAuth 2/OIDC Setup",
 			"description": "Run this collection to set up your AM instance for \nUMA/OAuth 2/OIDC.",
@@ -168,7 +168,13 @@
 				"8805d24e-d6ef-ee8d-49b7-f84313111b9b",
 				"9f168aa7-6986-21b9-3086-86dbe1737683",
 				"26a1a9ba-d48c-cad9-b9b7-0e7007386e09"
-			]
+			],
+			"owner": "246",
+			"lastUpdatedBy": {
+				"id": "246",
+				"username": "James Phillpotts"
+			},
+			"lastRevision": 1002340
 		}
 	],
 	"timestamp": 0,
@@ -177,7 +183,6 @@
 	"public": false,
 	"requests": [
 		{
-			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"id": "15d8568b-5dc2-6ca3-78e7-fed1a5e6ed32",
 			"name": "Introspect refresh token using credentials",
 			"dataMode": "urlencoded",
@@ -204,15 +209,63 @@
 			"url": "{{openamUrl}}/oauth2/introspect?token={{refresh_token}}",
 			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Token is a refresh token\"] = JSON.parse(responseBody).token_type === \"refresh_token\";\ntests[\"Token is active\"] = JSON.parse(responseBody).active;",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
+		},
+		{
+			"id": "16b00119-54fc-6c95-7d67-2a2142ae465b",
+			"headers": "",
+			"url": "{{openamUrl}}/oauth2/device/code",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "response_type",
+					"value": "id_token token",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scope",
+					"value": "openid profile",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "{{clientId}}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nonce",
+					"value": "1234",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "postman.setGlobalVariable(\"deviceCode\", JSON.parse(responseBody).device_code);\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1449090775949,
+			"name": "Device & User Code Request",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": null,
 			"id": "1da0d57a-c17c-ef81-bcd3-53ba84200778",
-			"name": "Access Token Password Grant",
-			"dataMode": "urlencoded",
+			"headers": "",
+			"url": "{{openamUrl}}/oauth2/access_token?grant_type=password&scope=openid%20profile&username=demo&password=changeit",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
 			"data": [
 				{
 					"key": "grant_type",
@@ -222,7 +275,7 @@
 				},
 				{
 					"key": "scope",
-					"value": "openid profile",
+					"value": "profile",
 					"type": "text",
 					"enabled": true
 				},
@@ -237,19 +290,28 @@
 					"value": "changeit",
 					"type": "text",
 					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "{{clientId}}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "{{clientSecret}}",
+					"type": "text",
+					"enabled": true
 				}
 			],
-			"rawModeData": null,
-			"descriptionFormat": null,
-			"description": "",
-			"headers": "",
-			"method": "POST",
-			"pathVariables": {},
-			"url": "{{openamUrl}}/oauth2/access_token?grant_type=password&scope=openid%20profile&username=demo&password=changeit",
-			"preRequestScript": "",
+			"dataMode": "urlencoded",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"access_token\", JSON.parse(responseBody).access_token);",
-			"currentHelper": null,
-			"helperAttributes": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1452012174211,
+			"name": "Access Token Password Grant",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
@@ -280,21 +342,24 @@
 		},
 		{
 			"id": "1f9c78b5-6478-1cc5-564a-57b68bf11faf",
-			"folder": "a8194065-77a5-989d-a260-2f3ce07436d6",
-			"name": "Register Dynamic Client",
-			"dataMode": "raw",
-			"data": [],
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "Authorization: Bearer AQIC5wM2LY4SfczZB83XxX9JxCsm_2eh6tOp93NY15lUARY.*AAJTSQACMDEAAlNLABMtODA1NDgxMTg2NTQyNjAwMDcxAAJTMQAA*\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/oauth2/connect/register",
+			"pathVariables": {},
 			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Register Dynamic Client",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1444647459761,
+			"version": 2,
+			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"folder": "a8194065-77a5-989d-a260-2f3ce07436d6",
 			"rawModeData": "{\n   \"application_type\":\"Web\",\n   \"client_id\":\"{{clientId}}\",\n   \"client_name\":\"{{clientId}} Client\",\n   \"client_secret\":\"{{clientSecret}}\",\n   \"client_type\":\"Confidential\",\n   \"client_uri\":\"http://openam.example.com:8080/openam/client_uri.html\",\n   \"contacts\":[\n      \"QaEngr1@example.com\",\n      \"QaEngr2@example.com\"\n   ],\n   \"default_max_age\":43200,\n   \"grant_types\":[\n      \"authorization_code\",\n      \"implicit\",\n      \"unexpected\"\n   ],\n   \"id_token_signed_response_alg\":\"HS256\",\n   \"initiate_login_uri\":\"http://openam.example.com:8080/openam/initiate_login.html\",\n   \"jwks_uri\":\"http://openam.example.com:8090/static/jwks.json\",\n   \"logo_uri\":\"http://openam.example.com:8080/openam/logo.gif\",\n   \"policy_uri\":\"http://openam.example.com:8080/openam/policy.html\",\n   \"redirect_uris\":[\n      \"http://openam.example.com:8080/openam/oauth2c/OAuthProxy.jsp\",\n      \"http://openam.example.com:8080/openam/oauth2c/OAuthProxy2.jsp\"\n   ],\n   \"request_uris\":[\n      \"http://openam≈¦.example.com:8080/openam/request_uri_1.html\",\n      \"http://openam.example.com:8080/openam/request_uri_2.html\"\n   ],\n   \"require_auth_time\":\"false\",\n   \"response_types\":[\n      \"code\",\n      \"token\",\n      \"id_token\",\n      \"code token\",\n      \"code id_token\",\n      \"token id_token\",\n      \"code token id_token\"\n   ],\n   \"scopes\":[\n      \"openid\"\n   ],\n   \"subject_type\":\"public\",\n   \"tos_uri\":\"http://openam.example.com:8080/openam/tos.html\"\n}"
 		},
 		{
@@ -317,46 +382,44 @@
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"id": "26a1a9ba-d48c-cad9-b9b7-0e7007386e09",
-			"name": "Create OpenID Client Agent",
-			"dataMode": "raw",
-			"data": [],
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\nContent-Type: application/json\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/json/agents?_action=create",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1444647914151,
+			"name": "Create OpenID Client Agent",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"responses": [],
 			"rawModeData": "{\n  \"username\": \"{{clientId}}\",\n  \"realm\": \"/\",\n  \"com.forgerock.openam.oauth2provider.clientType\": [\n    \"Confidential\"\n  ],\n  \"com.forgerock.openam.oauth2provider.accessToken\": [],\n  \"com.forgerock.openam.oauth2provider.sectorIdentifierURI\": [],\n  \"com.forgerock.openam.oauth2provider.jwtTokenLifeTime\": [\n    \"0\"\n  ],\n  \"userpassword\": [\n    \"{{clientSecret}}\"\n  ],\n  \"com.forgerock.openam.oauth2provider.contacts\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.clientSessionURI\": [],\n  \"com.forgerock.openam.oauth2provider.scopes\": [\n    \"[0]=openid\",\n    \"[1]=profile\",\n    \"[2]=address\",\n    \"[3]=email\"\n  ],\n  \"com.forgerock.openam.oauth2provider.responseTypes\": [\n    \"[6]=code token id_token\",\n    \"[0]=code\",\n    \"[4]=token id_token\",\n    \"[2]=id_token\",\n    \"[3]=code token\",\n    \"[1]=token\",\n    \"[5]=code id_token\"\n  ],\n  \"com.forgerock.openam.oauth2provider.authorizationCodeLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.description\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.accessTokenLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultMaxAgeEnabled\": [\n    \"false\"\n  ],\n  \"com.forgerock.openam.oauth2provider.subjectType\": [\n    \"Public\"\n  ],\n  \"agentgroup\": [],\n  \"com.forgerock.openam.oauth2provider.postLogoutRedirectURI\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.refreshTokenLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultScopes\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.name\": [\n    \"[0]=\"\n  ],\n  \"agenttype\": [\n    \"OAuth2Client\"\n  ],\n  \"com.forgerock.openam.oauth2provider.redirectionURIs\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.idTokenSignedResponseAlg\": [\n    \"RS256\"\n  ],\n  \"com.forgerock.openam.oauth2provider.clientName\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.tokenEndPointAuthMethod\": [\n    \"client_secret_basic\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultMaxAge\": [\n    \"600\"\n  ],\n  \"sunIdentityServerDeviceStatus\": [\n    \"Active\"\n  ],\n  \"com.forgerock.openam.oauth2provider.publicKeyLocation\": [\n    \"x509\"\n  ],\n  \"com.forgerock.openam.oauth2provider.jwksURI\": [],\n  \"com.forgerock.openam.oauth2provider.clientJwtPublicKey\": []\n}"
 		},
 		{
 			"id": "27ad9c8c-9712-00cd-8fa6-1d8c21adce77",
-			"folder": "529eeee3-ce44-7af0-abdf-f5a493c04014",
-			"name": "Query tokens",
-			"dataMode": "params",
-			"data": [],
-			"rawModeData": null,
-			"descriptionFormat": "html",
-			"description": "",
-			"headers": "iPlanetDirectoryPro: {{userToken}}\n",
-			"method": "GET",
-			"pathVariables": {},
+			"headers": "iPlanetDirectoryPro: {{adminToken}}\n",
 			"url": "{{openamUrl}}/frrest/oauth2/token?_queryId=userName=demo",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
 			"tests": "",
 			"currentHelper": "normal",
-			"helperAttributes": "{}",
+			"helperAttributes": {},
+			"time": 1464866555142,
+			"name": "Query tokens",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": null,
-			"id": "2c725442-4c96-03a2-f0ae-ffc37a00b25d",
 			"name": "Device Access Token Request",
 			"dataMode": "urlencoded",
 			"data": [],
@@ -371,29 +434,30 @@
 			"tests": "postman.setGlobalVariable(\"id_token\", JSON.parse(responseBody).id_token);\npostman.setGlobalVariable(\"access_token\", JSON.parse(responseBody).access_token);\npostman.setGlobalVariable(\"refresh_token\", JSON.parse(responseBody).refresh_token);\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"id": "2c725442-4c96-03a2-f0ae-ffc37a00b25d",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"id": "356dec90-1492-03d1-cf77-b02e80d756da",
-			"name": "Create Authorization Request using ID Token claim",
-			"dataMode": "raw",
-			"data": [],
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "Content-Type: application/json\nAuthorization: Bearer {{aat}}\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/uma/authz_request",
+			"pathVariables": {},
 			"preRequestScript": "",
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create Authorization Request using ID Token claim",
+			"description": "",
+			"descriptionFormat": "html",
 			"tests": "",
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
 			"rawModeData": "{\n  \"ticket\": \"{{permission_ticket}}\",\n  \"claim_tokens\": [\n      {\"format\": \"http://openid.net/specs/openid-connect-core-1_0.html#HybridIDToken\",\n          \"token\": \"{{id_token}}\"\n      }\n    ]\n}"
 		},
 		{
-			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"id": "3f6661c7-4f14-9dd7-8583-17a5ddbf04f6",
 			"name": "Delete Resource Set",
 			"dataMode": "raw",
@@ -407,12 +471,14 @@
 			"url": "{{openamUrl}}/oauth2/resource_set/ed806535-38de-4a37-bc19-df106b05c6eb0",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "abca3e5b-dc5d-2f1d-6916-386a567533cb",
 			"id": "40657607-b2b9-81f6-4cdf-25936c5074b6",
 			"name": "Refresh token",
 			"dataMode": "urlencoded",
@@ -451,13 +517,36 @@
 			"url": "{{openamUrl}}/oauth2/access_token",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"folder": "abca3e5b-dc5d-2f1d-6916-386a567533cb",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
+		},
+		{
+			"id": "40b658f1-ba06-6ae8-9b9b-2018efc9e095",
+			"headers": "iPlanetDirectoryPro: {{userToken}}\n",
+			"url": "{{openamUrl}}/frrest/oauth2/token?_queryId=access_token",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"data": [],
+			"dataMode": "params",
+			"name": "Query user's tokens",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1464866590119,
+			"version": 2,
+			"responses": [],
+			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"folder": "529eeee3-ce44-7af0-abdf-f5a493c04014"
 		},
 		{
 			"id": "40ee1f27-1e9f-aae4-ce64-35fb0ca2c876",
-			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"name": "Create UMA Service",
 			"dataMode": "raw",
 			"data": [],
@@ -469,14 +558,18 @@
 			"url": "{{openamUrl}}/json/realm-config/services/uma?_action=create",
 			"preRequestScript": "",
 			"tests": "var tests;",
+			"version": null,
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
+			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"collectionRequestId": "40ee1f27-1e9f-aae4-ce64-35fb0ca2c876",
 			"rawModeData": "{\n  \"supportedRptProfiles\": [\n    \"bearer\"\n  ],\n  \"supportedClaimTokenProfiles\": [],\n  \"supportedPatProfiles\": [\n    \"bearer\"\n  ],\n  \"supportedAatProfiles\": [\n    \"bearer\"\n  ],\n  \"deleteResourceSetsOnDeleteRS\": true,\n  \"emailRequestingPartyOnPendingRequestApproval\": true,\n  \"deletePoliciesOnDeleteRS\": true,\n  \"userProfileLocaleAttribute\": \"inetOrgPerson\",\n  \"rptLifetime\": 3600,\n  \"supportedUmaProfiles\": [],\n  \"permissionTicketLifetime\": 6000,\n  \"emailResourceOwnerOnPendingRequestCreation\": true\n}"
 		},
 		{
-			"folder": "8195aed2-ade2-b334-682e-8911a7f7dbd7",
 			"id": "41e928be-87c6-8649-ceb8-48016f4df4e5",
+			"folder": "8195aed2-ade2-b334-682e-8911a7f7dbd7",
 			"name": "Get All Resources with Label",
 			"dataMode": "params",
 			"data": [],
@@ -490,11 +583,11 @@
 			"preRequestScript": "",
 			"tests": "",
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "529eeee3-ce44-7af0-abdf-f5a493c04014",
 			"id": "433e0e85-ada6-0552-e502-f452a63c18ff",
 			"name": "Read Access Token",
 			"dataMode": "params",
@@ -508,12 +601,14 @@
 			"url": "{{openamUrl}}/frrest/oauth2/token/{{access_token}}",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "529eeee3-ce44-7af0-abdf-f5a493c04014",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"id": "590a842c-617f-4ef9-1688-578d4db5bcfe",
 			"name": "List Resource Sets",
 			"dataMode": "params",
@@ -527,34 +622,41 @@
 			"url": "{{openamUrl}}/oauth2/resource_set/",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
 			"id": "5fb1b996-dcc7-7a90-469d-672efd314d70",
-			"folder": "037036db-750c-a23f-1145-7649ce1ee56e",
-			"name": "Device Access Token Request",
-			"dataMode": "urlencoded",
-			"data": [],
-			"rawModeData": null,
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "Content-Type: application/json\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/oauth2/device/token?client_id=iPlayer&client_secret=password&code={{deviceCode}}",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"id_token\", JSON.parse(responseBody).id_token);\npostman.setGlobalVariable(\"access_token\", JSON.parse(responseBody).access_token);\npostman.setGlobalVariable(\"refresh_token\", JSON.parse(responseBody).refresh_token);\n",
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"time": 1443629770145,
+			"name": "Device Access Token Request",
+			"description": "",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"folder": "037036db-750c-a23f-1145-7649ce1ee56e",
+			"rawModeData": null,
+			"descriptionFormat": "html"
 		},
 		{
 			"id": "644392df-3167-8caa-faa3-6abc89bcb425",
-			"folder": "abca3e5b-dc5d-2f1d-6916-386a567533cb",
-			"name": "Password Grant",
-			"dataMode": "urlencoded",
+			"headers": "",
+			"url": "{{openamUrl}}/oauth2/access_token",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
 			"data": [
 				{
 					"key": "grant_type",
@@ -585,45 +687,39 @@
 					"value": "{{clientSecret}}",
 					"type": "text",
 					"enabled": true
-				},
-				{
-					"key": "scope",
-					"value": "openid profile",
-					"type": "text",
-					"enabled": true
 				}
 			],
-			"rawModeData": null,
-			"descriptionFormat": null,
-			"description": "",
-			"headers": "",
-			"method": "POST",
-			"pathVariables": {},
-			"url": "{{openamUrl}}/oauth2/access_token",
-			"preRequestScript": "",
+			"dataMode": "urlencoded",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"access_token\", JSON.parse(responseBody).access_token);\npostman.setGlobalVariable(\"refresh_token\", JSON.parse(responseBody).refresh_token);",
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"time": 1444648027374,
+			"name": "Password Grant",
+			"description": "",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"folder": "abca3e5b-dc5d-2f1d-6916-386a567533cb",
+			"rawModeData": null,
+			"descriptionFormat": null
 		},
 		{
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"id": "6b35aaf2-bd7a-f573-1d8a-b0d3b4ca1b71",
-			"name": "Create Permission Request",
-			"dataMode": "raw",
-			"data": [],
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "Content-Type: application/json\nAuthorization: Bearer {{pat}}\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/uma/permission_request",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"permission_ticket\", JSON.parse(responseBody).ticket);",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1463732510367,
+			"name": "Create Permission Request",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
-			"rawModeData": "{\n  \"resource_set_id\": \"{{RSID}}\",\n  \"scopes\": [\n      \"http://tinyurl.com/uma-view-scope\",\n       \"http://tinyurl.com/uma-edit-scope\"\n  ]\n}"
+			"rawModeData": "{\n  \"resource_set_id\": \"{{RSID}}\",\n  \"scopes\": [\n      \"http://tinyurl.com/uma-view-scope\"\n  ]\n}"
 		},
 		{
 			"folder": "8195aed2-ade2-b334-682e-8911a7f7dbd7",
@@ -641,12 +737,11 @@
 			"preRequestScript": "",
 			"tests": "",
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
 			"id": "73d0cb0d-ed72-6ad8-3a23-aa6fa5b08083",
-			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"name": "Login as amadmin",
 			"dataMode": "raw",
 			"data": [],
@@ -658,14 +753,16 @@
 			"url": "{{openamUrl}}/json/authenticate",
 			"preRequestScript": "",
 			"tests": "postman.setGlobalVariable(\"ssoTokenId\", JSON.parse(responseBody).tokenId);\npostman.setGlobalVariable(\"adminToken\", JSON.parse(responseBody).tokenId);",
+			"version": null,
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
+			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"collectionRequestId": "73d0cb0d-ed72-6ad8-3a23-aa6fa5b08083",
 			"rawModeData": "{}"
 		},
 		{
-			"folder": null,
-			"id": "7759de22-df71-25aa-e885-5182d1d43784",
 			"name": "Device & User Code Request",
 			"dataMode": "urlencoded",
 			"data": [],
@@ -680,29 +777,30 @@
 			"tests": "postman.setGlobalVariable(\"deviceCode\", JSON.parse(responseBody).device_code);\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"folder": null,
+			"id": "7759de22-df71-25aa-e885-5182d1d43784",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
 			"id": "8805d24e-d6ef-ee8d-49b7-f84313111b9b",
-			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
-			"name": "Create UMA Client Agent",
-			"dataMode": "raw",
-			"data": [],
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "Content-Type: application/json\niPlanetDirectoryPro: {{ssoTokenId}}\ncurrentpassword: changeit\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/json/agents?_action=create",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
 			"tests": "",
 			"currentHelper": "normal",
-			"helperAttributes": "{}",
+			"helperAttributes": {},
+			"time": 1444647313598,
+			"name": "Create UMA Client Agent",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
 			"rawModeData": "{\n  \"username\": \"{{umaCClientId}}\",\n  \"realm\": \"/\",\n  \"com.forgerock.openam.oauth2provider.clientType\": [\n    \"Confidential\"\n  ],\n  \"com.forgerock.openam.oauth2provider.accessToken\": [],\n  \"com.forgerock.openam.oauth2provider.sectorIdentifierURI\": [],\n  \"com.forgerock.openam.oauth2provider.jwtTokenLifeTime\": [\n    \"0\"\n  ],\n  \"userpassword\": [\n    \"{{umaCClientSecret}}\"\n  ],\n  \"com.forgerock.openam.oauth2provider.contacts\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.clientSessionURI\": [],\n  \"com.forgerock.openam.oauth2provider.scopes\": [\n    \"[0]=uma_authorization\"\n  ],\n  \"com.forgerock.openam.oauth2provider.responseTypes\": [\n    \"[6]=code token id_token\",\n    \"[0]=code\",\n    \"[4]=token id_token\",\n    \"[2]=id_token\",\n    \"[3]=code token\",\n    \"[1]=token\",\n    \"[5]=code id_token\"\n  ],\n  \"com.forgerock.openam.oauth2provider.authorizationCodeLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.description\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.accessTokenLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultMaxAgeEnabled\": [\n    \"false\"\n  ],\n  \"com.forgerock.openam.oauth2provider.subjectType\": [\n    \"Public\"\n  ],\n  \"agentgroup\": [],\n  \"com.forgerock.openam.oauth2provider.postLogoutRedirectURI\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.refreshTokenLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultScopes\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.name\": [\n    \"[0]=\"\n  ],\n  \"agenttype\": [\n    \"OAuth2Client\"\n  ],\n  \"com.forgerock.openam.oauth2provider.redirectionURIs\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.idTokenSignedResponseAlg\": [\n    \"RS256\"\n  ],\n  \"com.forgerock.openam.oauth2provider.clientName\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.tokenEndPointAuthMethod\": [\n    \"client_secret_basic\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultMaxAge\": [\n    \"600\"\n  ],\n  \"sunIdentityServerDeviceStatus\": [\n    \"Active\"\n  ],\n  \"com.forgerock.openam.oauth2provider.publicKeyLocation\": [\n    \"x509\"\n  ],\n  \"com.forgerock.openam.oauth2provider.jwksURI\": [],\n  \"com.forgerock.openam.oauth2provider.clientJwtPublicKey\": []\n}"
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "8a4407df-81dc-f6b2-d035-38a467c02415",
 			"name": "Pending Requests from 'bob'",
 			"dataMode": "params",
@@ -716,50 +814,14 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/pendingrequests?_queryFilter=user eq \"bob\"",
 			"preRequestScript": "var prScript",
 			"tests": "var tests;",
+			"version": null,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "037036db-750c-a23f-1145-7649ce1ee56e",
-			"id": "8c8cc60c-87d2-feb8-e86d-f2e9560f5746",
-			"name": "{{openamUrl}}/oauth2/device/code",
-			"dataMode": "urlencoded",
-			"data": [
-				{
-					"key": "response_type",
-					"value": "token",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "scope",
-					"value": "mail",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "client_id",
-					"value": "device-flow",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"rawModeData": null,
-			"descriptionFormat": "html",
-			"description": "",
-			"headers": "",
-			"method": "POST",
-			"pathVariables": {},
-			"url": "{{openamUrl}}/oauth2/device/code",
-			"preRequestScript": "",
-			"tests": "",
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
-		},
-		{
-			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"id": "922d0c63-4f45-2f99-8e13-27786415c9f6",
 			"name": "Introspect access token using credentials",
 			"dataMode": "urlencoded",
@@ -786,13 +848,14 @@
 			"url": "{{openamUrl}}/oauth2/introspect?token={{access_token}}",
 			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Token is a refresh token\"] = JSON.parse(responseBody).token_type === \"access_token\";\ntests[\"Token is active\"] = JSON.parse(responseBody).active;",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": null,
-			"id": "92f7d349-e7cc-9bc8-dfb5-c8a178b9acb0",
 			"name": "Device Access Token Request",
 			"dataMode": "urlencoded",
 			"data": [],
@@ -807,10 +870,11 @@
 			"tests": "postman.setGlobalVariable(\"id_token\", JSON.parse(responseBody).id_token);\npostman.setGlobalVariable(\"access_token\", JSON.parse(responseBody).access_token);\npostman.setGlobalVariable(\"refresh_token\", JSON.parse(responseBody).refresh_token);\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"folder": null,
+			"id": "92f7d349-e7cc-9bc8-dfb5-c8a178b9acb0",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"id": "9680d58a-a6b3-cda9-c27a-25001b81219c",
 			"name": "Delete UMA Policy",
 			"dataMode": "params",
@@ -824,31 +888,35 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/policies/8c26b121-8bb0-4bb1-ac67-66ee1edb669a0",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "5b700350-6588-d159-662c-2880831c092c",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"id": "99fac88d-435b-fa66-3d6d-c71ed57e0e42",
-			"name": "Register Resource Set",
-			"dataMode": "raw",
-			"data": [],
-			"descriptionFormat": null,
-			"description": "",
 			"headers": "Content-Type: application/json\nAuthorization: Bearer {{pat}}\n",
-			"method": "POST",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/oauth2/resource_set",
 			"preRequestScript": "var counter = parseInt(postman.getGlobalVariable(\"counter\") || 0);\npostman.setGlobalVariable(\"counter\", counter + 1);",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"ETag\", responseHeaders.ETag.substring(2));\npostman.setGlobalVariable(\"RSID\", JSON.parse(responseBody)._id);",
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"time": 1438378174329,
+			"name": "Register Resource Set",
+			"description": "",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"descriptionFormat": null,
+			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"rawModeData": "{\n     \"name\" : \"Photo Album {{counter}}\",\n     \"icon_uri\" : \"http://www.example.com/icons/flower.png\",\n     \"scopes\" : [\n       \"http://tinyurl.com/uma-view-scope\",\n       \"http://tinyurl.com/uma-edit-scope\"\n     ],\n     \"type\" : \"http://www.example.com/rsets/photoalbum\",\n     \"labels\": [\"Photos\"]\n   }"
 		},
 		{
-			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"id": "9f168aa7-6986-21b9-3086-86dbe1737683",
 			"name": "Create UMA Resource ServerAgent",
 			"dataMode": "raw",
@@ -861,13 +929,15 @@
 			"url": "{{openamUrl}}/json/agents?_action=create",
 			"preRequestScript": "",
 			"tests": "",
+			"version": null,
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"folder": "1f08b489-1167-d5ed-be9f-9d2cc5594d7b",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
 			"rawModeData": "{\n  \"username\": \"{{umaRsClientId}}\",\n  \"realm\": \"/\",\n  \"com.forgerock.openam.oauth2provider.clientType\": [\n    \"Confidential\"\n  ],\n  \"com.forgerock.openam.oauth2provider.accessToken\": [],\n  \"com.forgerock.openam.oauth2provider.sectorIdentifierURI\": [],\n  \"com.forgerock.openam.oauth2provider.jwtTokenLifeTime\": [\n    \"0\"\n  ],\n  \"userpassword\": [\n    \"{{umaRsClientSecret}}\"\n  ],\n  \"com.forgerock.openam.oauth2provider.contacts\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.clientSessionURI\": [],\n  \"com.forgerock.openam.oauth2provider.scopes\": [\n    \"[0]=uma_protection\"\n  ],\n  \"com.forgerock.openam.oauth2provider.responseTypes\": [\n    \"[6]=code token id_token\",\n    \"[0]=code\",\n    \"[4]=token id_token\",\n    \"[2]=id_token\",\n    \"[3]=code token\",\n    \"[1]=token\",\n    \"[5]=code id_token\"\n  ],\n  \"com.forgerock.openam.oauth2provider.authorizationCodeLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.description\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.accessTokenLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultMaxAgeEnabled\": [\n    \"false\"\n  ],\n  \"com.forgerock.openam.oauth2provider.subjectType\": [\n    \"Public\"\n  ],\n  \"agentgroup\": [],\n  \"com.forgerock.openam.oauth2provider.postLogoutRedirectURI\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.refreshTokenLifeTime\": [\n    \"0\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultScopes\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.name\": [\n    \"[0]=\"\n  ],\n  \"agenttype\": [\n    \"OAuth2Client\"\n  ],\n  \"com.forgerock.openam.oauth2provider.redirectionURIs\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.idTokenSignedResponseAlg\": [\n    \"RS256\"\n  ],\n  \"com.forgerock.openam.oauth2provider.clientName\": [\n    \"[0]=\"\n  ],\n  \"com.forgerock.openam.oauth2provider.tokenEndPointAuthMethod\": [\n    \"client_secret_basic\"\n  ],\n  \"com.forgerock.openam.oauth2provider.defaultMaxAge\": [\n    \"600\"\n  ],\n  \"sunIdentityServerDeviceStatus\": [\n    \"Active\"\n  ],\n  \"com.forgerock.openam.oauth2provider.publicKeyLocation\": [\n    \"x509\"\n  ],\n  \"com.forgerock.openam.oauth2provider.jwksURI\": [],\n  \"com.forgerock.openam.oauth2provider.clientJwtPublicKey\": []\n}"
 		},
 		{
-			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"id": "a1e3d29f-26db-ce0c-dbd8-bf7f3f0dda45",
 			"name": "Query UMA Policy",
 			"dataMode": "params",
@@ -881,12 +951,14 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/policies?_sortKeys=policyId,name&_pageSize=1&_pagedResultsOffset=0&_queryFilter=resourceServer eq \"{{umaRsClientId}}\" and permissions/subject eq \"id=alice,ou=user,dc=openam,dc=forgerock,dc=org\"",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "5b700350-6588-d159-662c-2880831c092c",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "b1d0563f-79fd-b070-91af-a3bceadc3f93",
 			"name": "Uma Users",
 			"dataMode": "params",
@@ -900,12 +972,14 @@
 			"url": "{{openamUrl}}/json/uma/users?_queryId=*",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "b280dd2e-cedf-1aab-7064-aa4ea06f788c",
 			"name": "Audit History Query",
 			"dataMode": "params",
@@ -919,17 +993,19 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/auditHistory?_pageSize=10&_sortKeys=-eventTime&_queryFilter=true&_pagedResultsOffset=0",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "8195aed2-ade2-b334-682e-8911a7f7dbd7",
 			"id": "b390c666-553a-b181-a2e0-6d15c9d51588",
+			"folder": "8195aed2-ade2-b334-682e-8911a7f7dbd7",
 			"name": "Delete Starred Label",
 			"dataMode": "raw",
 			"data": [],
-			"rawModeData": "",
 			"descriptionFormat": null,
 			"description": "",
 			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\nContent-Type: application/json\n",
@@ -939,11 +1015,11 @@
 			"preRequestScript": "",
 			"tests": "postman.setGlobalVariable(\"starredLabelId\", JSON.parse(responseBody)._id);\n",
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"rawModeData": ""
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "b75a7006-f905-7cf7-80a4-40d956a29773",
 			"name": "Internal Revoke All UMA Policies",
 			"dataMode": "params",
@@ -957,17 +1033,18 @@
 			"url": "{{openamUrl}}/json/users/demo/oauth2/resourcesets?_action=revokeAll",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"id": "bda1931f-e57d-f22f-2954-fcb938dcdc0f",
-			"headers": "",
-			"url": "{{openamUrl}}/oauth2/introspect?token={{rpt}}",
-			"preRequestScript": "",
-			"pathVariables": {},
-			"method": "POST",
+			"name": "Introspect RPT",
+			"dataMode": "urlencoded",
 			"data": [
 				{
 					"key": "client_id",
@@ -982,21 +1059,21 @@
 					"enabled": true
 				}
 			],
-			"dataMode": "urlencoded",
-			"version": 2,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "Introspects a RPT",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{openamUrl}}/oauth2/introspect?token={{rpt}}",
+			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Token is inactive\"] = !JSON.parse(responseBody).active;",
-			"sandboxFiles": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1444231324230,
-			"name": "Introspect RPT",
-			"description": "Introspects a RPT",
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
-			"responses": []
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
 			"id": "c079fa7e-4b17-d2cc-7050-5c5e834abf35",
-			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"name": "Update UMA Policy",
 			"dataMode": "raw",
 			"data": [],
@@ -1008,32 +1085,35 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/policies/8c26b121-8bb0-4bb1-ac67-66ee1edb669a1",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
+			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"collectionRequestId": "c079fa7e-4b17-d2cc-7050-5c5e834abf35",
 			"rawModeData": "{\n    \"policyId\": \"8c26b121-8bb0-4bb1-ac67-66ee1edb669a1\",\n    \"permissions\": [\n        {\n            \"subject\": \"alice\",\n            \"scopes\": [\"http://tinyurl.com/uma-view-scope\"]\n        },\n        {\n            \"subject\": \"bob\",\n            \"scopes\": [\"http://tinyurl.com/uma-view-scope\", \"http://tinyurl.com/uma-edit-scope\"]\n        }\n    ]\n}"
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "c644d1d4-57a3-73c4-6e54-7ff1fde8ace2",
-			"name": "Internal Read Resource Set",
-			"dataMode": "params",
-			"data": [],
-			"rawModeData": null,
-			"descriptionFormat": null,
-			"description": "",
 			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\nContent-Type: application/json\n",
-			"method": "GET",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/json/users/demo/oauth2/resources/sets/a8ebf94d-78c8-4029-a623-061e99d8df940",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"time": 1438611650382,
+			"name": "Internal Read Resource Set",
+			"description": "",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490"
 		},
 		{
-			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"id": "cc062974-19d7-7706-ca7a-af69ce3d4105",
 			"name": "Update Resource Set",
 			"dataMode": "raw",
@@ -1046,9 +1126,12 @@
 			"url": "{{openamUrl}}/oauth2/resource_set/ed806535-38de-4a37-bc19-df106b05c6eb0",
 			"preRequestScript": "",
 			"tests": "postman.setGlobalVariable(\"ETag\", responseHeaders.ETag.substring(2));",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
 			"rawModeData": "{\n     \"name\" : \"Old Photo Album\",\n     \"icon_uri\" : \"http://www.example.com/icons/flower.png\",\n     \"scopes\" : [\n       \"http://photoz.example.com/dev/scopes/view\",\n       \"http://photoz.example.com/dev/scopes/edit\",\n       \"http://photoz.example.com/dev/scopes/all\"\n     ],\n     \"type\" : \"http://www.example.com/rsets/photoalbum\",\n     \"labels\": []\n   }"
 		},
 		{
@@ -1072,9 +1155,11 @@
 		},
 		{
 			"id": "d2407dfb-93ba-b29a-8b8a-5716403ea1c6",
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
-			"name": "Get AAT",
-			"dataMode": "urlencoded",
+			"headers": "",
+			"url": "{{openamUrl}}/oauth2/access_token",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
 			"data": [
 				{
 					"key": "grant_type",
@@ -1090,7 +1175,7 @@
 				},
 				{
 					"key": "username",
-					"value": "charlie",
+					"value": "James",
 					"type": "text",
 					"enabled": true
 				},
@@ -1113,24 +1198,23 @@
 					"enabled": true
 				}
 			],
-			"rawModeData": null,
-			"descriptionFormat": null,
-			"description": "Gets an AAT using Password Grant",
-			"headers": "",
-			"method": "POST",
-			"pathVariables": {},
-			"url": "{{openamUrl}}/oauth2/access_token",
-			"preRequestScript": "",
+			"dataMode": "urlencoded",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"aat\", JSON.parse(responseBody).access_token);",
 			"currentHelper": "normal",
-			"helperAttributes": "{}",
+			"helperAttributes": {},
+			"time": 1463729706243,
+			"name": "Get AAT",
+			"description": "Gets an AAT using Password Grant",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"id": "d59c6d25-d994-9b82-36ec-6ec88118b0fb",
-			"name": "Get PAT",
-			"dataMode": "urlencoded",
+			"headers": "",
+			"url": "{{openamUrl}}/oauth2/access_token",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
 			"data": [
 				{
 					"key": "grant_type",
@@ -1146,7 +1230,7 @@
 				},
 				{
 					"key": "username",
-					"value": "demo",
+					"value": "Hannah",
 					"type": "text",
 					"enabled": true
 				},
@@ -1169,22 +1253,18 @@
 					"enabled": true
 				}
 			],
-			"rawModeData": null,
-			"descriptionFormat": null,
-			"description": "Gets an PAT using Password Grant",
-			"headers": "",
-			"method": "POST",
-			"pathVariables": {},
-			"url": "{{openamUrl}}/oauth2/access_token",
-			"preRequestScript": "",
+			"dataMode": "urlencoded",
+			"version": 2,
 			"tests": "postman.setGlobalVariable(\"pat\", JSON.parse(responseBody).access_token);",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1463729717636,
+			"name": "Get PAT",
+			"description": "Gets an PAT using Password Grant",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
 			"id": "d6424dc5-8398-30b5-8ffa-46d201d8ee4c",
-			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"name": "Create UMA Policy",
 			"dataMode": "raw",
 			"data": [],
@@ -1196,9 +1276,13 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/policies?_action=create",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
+			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"collectionRequestId": "d6424dc5-8398-30b5-8ffa-46d201d8ee4c",
 			"rawModeData": "{\n    \"policyId\": \"{{RSID}}\",\n    \"permissions\": [\n        {\n            \"subject\": \"alice\",\n            \"scopes\": [\"http://tinyurl.com/uma-view-scope\"]\n        },\n        {\n            \"subject\": \"bob\",\n            \"scopes\": [\"http://tinyurl.com/uma-view-scope\", \"http://tinyurl.com/uma-edit-scope\"]\n        }\n    ]\n}"
 		},
 		{
@@ -1221,10 +1305,12 @@
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"id": "dc3d958d-0d2d-207b-9a7a-c55bd9998c09",
-			"name": "Get AAT with id_token",
-			"dataMode": "urlencoded",
+			"headers": "",
+			"url": "{{openamUrl}}/oauth2/access_token",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
 			"data": [
 				{
 					"key": "grant_type",
@@ -1257,21 +1343,19 @@
 					"enabled": true
 				}
 			],
-			"rawModeData": null,
-			"descriptionFormat": "html",
+			"dataMode": "urlencoded",
+			"name": "Get AAT with id_token",
 			"description": "Gets an AAT using authorization code grant with id_token",
-			"headers": "",
-			"method": "POST",
-			"pathVariables": {},
-			"url": "{{openamUrl}}/oauth2/access_token",
-			"preRequestScript": "",
+			"descriptionFormat": "html",
 			"tests": "postman.setGlobalVariable(\"aat\", JSON.parse(responseBody).access_token);\npostman.setGlobalVariable(\"id_token\", JSON.parse(responseBody).id_token);",
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"rawModeData": null
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "dea1c455-d7c5-caa9-85fa-252d6c3233b6",
 			"name": "All Pending Requests",
 			"dataMode": "params",
@@ -1285,9 +1369,12 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/pendingrequests?_queryFilter=true",
 			"preRequestScript": "var prScript",
 			"tests": "var tests;",
+			"version": null,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
 			"folder": "8195aed2-ade2-b334-682e-8911a7f7dbd7",
@@ -1304,12 +1391,11 @@
 			"preRequestScript": "",
 			"tests": "postman.setGlobalVariable(\"labelId\", JSON.parse(responseBody)._id);\n",
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
 			"rawModeData": "{\n    \"name\": \"test\",\n    \"type\": \"USER\"\n}"
 		},
 		{
-			"folder": "5b700350-6588-d159-662c-2880831c092c",
 			"id": "e0fde3ad-603b-b9fd-332f-0b5d5e0b6dda",
 			"name": "Read UMA Policy",
 			"dataMode": "params",
@@ -1323,12 +1409,14 @@
 			"url": "{{openamUrl}}/json/users/demo/uma/policies/8c26b121-8bb0-4bb1-ac67-66ee1edb669a1",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "5b700350-6588-d159-662c-2880831c092c",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"id": "eaf1174d-51b9-b9e7-21bd-605b52624c9e",
 			"name": "Create Authorization Request",
 			"dataMode": "raw",
@@ -1341,13 +1429,15 @@
 			"url": "{{openamUrl}}/uma/authz_request",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
 			"rawModeData": "{\n  \"ticket\": \"{{permission_ticket}}\"\n}"
 		},
 		{
-			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"id": "ec33e675-0730-4972-7433-40cd89134744",
 			"name": "Introspect invalid token",
 			"dataMode": "urlencoded",
@@ -1374,12 +1464,14 @@
 			"url": "{{openamUrl}}/oauth2/introspect?token={{refresh_token}}a",
 			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Token is inactive\"] = !JSON.parse(responseBody).active;",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"id": "eda901fc-e6c0-af4d-0783-5e846e1c96f6",
 			"name": "Request Authorization Request",
 			"dataMode": "raw",
@@ -1392,32 +1484,34 @@
 			"url": "{{openamUrl}}/uma/authz_request",
 			"preRequestScript": "",
 			"tests": "postman.setGlobalVariable(\"rpt\", JSON.parse(responseBody).rpt);",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
+			"helperAttributes": "{}",
+			"folder": "47ff16ba-468d-dcc3-ce8e-e35b9c126036",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
 			"rawModeData": "{\n  \"ticket\": \"{{permission_ticket}}\"\n}"
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "ee90073f-98b4-d756-34f6-40f2228ebee2",
-			"name": "Internal Query Resource Sets",
-			"dataMode": "params",
-			"data": [],
-			"rawModeData": null,
-			"descriptionFormat": "html",
-			"description": "",
 			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\nContent-Type: application/json\n",
-			"method": "GET",
-			"pathVariables": {},
 			"url": "{{openamUrl}}/json/users/demo/oauth2/resources/sets?_queryFilter=name eq \"Photo Album\" and resourceServer eq \"RSClient\" and policy/permissions/subject eq \"id=alice,ou=user,dc=openam,dc=forgerock,dc=org\"",
 			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"time": 1438340529413,
+			"name": "Internal Query Resource Sets",
+			"description": "",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490"
 		},
 		{
-			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"id": "f012237e-a7ae-d4d3-57b3-1b2a095ea631",
 			"name": "Introspect access token with JWT",
 			"dataMode": "urlencoded",
@@ -1450,32 +1544,36 @@
 			"url": "{{openamUrl}}/oauth2/introspect?token={{access_token}}",
 			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Token is a refresh token\"] = JSON.parse(responseBody).token_type === \"access_token\";\ntests[\"Token is active\"] = JSON.parse(responseBody).active;",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
 			"id": "f08926e2-acb3-1faa-5591-abc5d080b064",
+			"name": "Read Resource Set",
+			"dataMode": "params",
+			"data": [],
+			"descriptionFormat": null,
+			"description": "",
 			"headers": "Content-Type: application/json\nAuthorization: Bearer {{pat}}\n",
+			"method": "GET",
+			"pathVariables": {},
 			"url": "{{openamUrl}}/oauth2/resource_set/9b8014d3-7c81-4f98-8867-fe5b8e7b6a4d0",
 			"preRequestScript": "",
-			"pathVariables": {},
-			"method": "GET",
-			"data": [],
-			"dataMode": "params",
-			"version": 2,
 			"tests": "postman.setGlobalVariable(\"ETag\", responseHeaders.ETag.substring(2));",
-			"sandboxFiles": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1444231372856,
-			"name": "Read Resource Set",
-			"description": "",
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "0e5da40d-0f89-5000-6446-5016890ab454",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"rawModeData": "{\n    \"path\": \"/guillaume/.*\",\n    \"pat\": \"{{pat}}\"\n}"
 		},
 		{
 			"id": "f16e365d-a78e-edf6-92ed-a926ca5da766",
-			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"name": "Get token",
 			"dataMode": "urlencoded",
 			"data": [
@@ -1525,9 +1623,14 @@
 			"url": "{{openamUrl}}/oauth2/access_token?client_id={{clientId}}&grant_type=password&scope=one%20two%20three&username=demo&password=changeit&client_secret={{clientSecret}}",
 			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Contains access token\"] = JSON.parse(responseBody).access_token !== null;\ntests[\"Contains refresh token\"] = JSON.parse(responseBody).refresh_token !== null;\n\npostman.setGlobalVariable(\"access_token\", JSON.parse(responseBody).access_token);\npostman.setGlobalVariable(\"refresh_token\", JSON.parse(responseBody).refresh_token);",
+			"version": 2,
 			"currentHelper": "normal",
 			"helperAttributes": "{}",
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true,
+			"collectionRequestId": "f16e365d-a78e-edf6-92ed-a926ca5da766",
+			"timestamp": null
 		},
 		{
 			"folder": null,
@@ -1550,7 +1653,7 @@
 		},
 		{
 			"id": "f6080632-992c-da9c-c12b-fe9ed108477c",
-			"headers": "iPlanetDirectoryPro: {{ssoTokenId}}\nContent-Type: application/json\n",
+			"headers": "iPlanetDirectoryPro: {{adminToken}}\nContent-Type: application/json\n",
 			"url": "{{openamUrl}}/json/realm-config/services/oauth-oidc?_action=create",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -1559,18 +1662,15 @@
 			"dataMode": "raw",
 			"version": 2,
 			"tests": "var tests;",
-			"sandboxFiles": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1450447061345,
+			"time": 1464866975598,
 			"name": "Create OAuth2/OIDC Service",
 			"description": "Use the 'template' action to get the",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
-			"rawModeData": "{\n    \"loaMapping\": {}, \n    \"oidcClaimsScript\": \"36863ffb-40ec-48b9-94b1-9a99f71cc3b5\", \n    \"jkwsURI\": \"http://phill.internal.forgerock.com:8080/openam/oauth2/access_token\", \n    \"supportedClaims\": [\n        \"phone\", \n        \"address\", \n        \"email\", \n        \"openid\", \n        \"profile\"\n    ], \n    \"codeVerifierEnforced\": false, \n    \"hashSalt\": \"changeme\", \n    \"customLoginUrlTemplate\": [], \n    \"savedConsentAttribute\": \"myconsent\", \n    \"responseTypeClasses\": [\n        \"id_token|org.forgerock.restlet.ext.oauth2.flow.responseTypes.IDTokenResponseType\", \n        \"token|org.forgerock.restlet.ext.oauth2.flow.responseTypes.TokenResponseType\", \n        \"code|org.forgerock.restlet.ext.oauth2.flow.responseTypes.CodeResponseType\"\n    ], \n    \"issueRefreshTokenOnRefreshedToken\": true, \n    \"claimsParameterSupported\": false, \n    \"modifiedTimestampAttribute\": \"modifyTimestamp\", \n    \"generateRegistrationAccessTokens\": false, \n    \"refreshTokenLifetime\": 60, \n    \"allowDynamicRegistration\": true, \n    \"displayNameAttribute\": \"cn\", \n    \"amrMappings\": {}, \n    \"authenticationAttributes\": [\n        \"uid\"\n    ], \n    \"defaultScopes\": [\n        \"phone\", \n        \"address\", \n        \"email\", \n        \"openid\", \n        \"profile\"\n    ], \n    \"supportedScopes\": [\n        \"openid|\", \n        \"profile|Your personal information\", \n        \"email|Your email address\", \n        \"phone|Your telephone number(s)\", \n        \"address|Your postal address\"\n    ], \n    \"createdTimestampAttribute\": \"createTimestamp\", \n    \"keypairName\": \"test\", \n    \"supportedIDTokenSigningAlgorithms\": [\n        \"HS256\", \n        \"HS512\", \n        \"RS256\", \n        \"HS384\"\n    ], \n    \"codeLifetime\": 60, \n    \"accessTokenLifetime\": 5, \n    \"issueRefreshToken\": true, \n    \"alwaysAddClaimsToToken\": false, \n    \"supportedSubjectTypes\": [\n        \"public\"\n    ], \n    \"defaultACR\": [], \n    \"jwtTokenLifetime\": 600, \n    \"scopeImplementationClass\": \"org.forgerock.openam.oauth2.OpenAMScopeValidator\"\n}"
+			"rawModeData": "{\n    \"loaMapping\": {}, \n    \"oidcClaimsScript\": \"36863ffb-40ec-48b9-94b1-9a99f71cc3b5\", \n    \"jkwsURI\": \"http://rich.example.com:8080/openam/oauth2/access_token\", \n    \"supportedClaims\": [\n        \"phone\", \n        \"address\", \n        \"email\", \n        \"openid\", \n        \"profile\"\n    ], \n    \"codeVerifierEnforced\": false, \n    \"hashSalt\": \"changeme\", \n    \"customLoginUrlTemplate\": [], \n    \"savedConsentAttribute\": \"myconsent\", \n    \"responseTypeClasses\": [\n        \"id_token|org.forgerock.restlet.ext.oauth2.flow.responseTypes.IDTokenResponseType\", \n        \"token|org.forgerock.restlet.ext.oauth2.flow.responseTypes.TokenResponseType\", \n        \"code|org.forgerock.restlet.ext.oauth2.flow.responseTypes.CodeResponseType\"\n    ], \n    \"issueRefreshTokenOnRefreshedToken\": true, \n    \"claimsParameterSupported\": false, \n    \"modifiedTimestampAttribute\": \"modifyTimestamp\", \n    \"generateRegistrationAccessTokens\": false, \n    \"refreshTokenLifetime\": 6000, \n    \"allowDynamicRegistration\": true, \n    \"displayNameAttribute\": \"cn\", \n    \"amrMappings\": {}, \n    \"authenticationAttributes\": [\n        \"uid\"\n    ], \n    \"defaultScopes\": [\n        \"phone\", \n        \"address\", \n        \"email\", \n        \"openid\", \n        \"profile\"\n    ], \n    \"supportedScopes\": [\n        \"openid|\", \n        \"profile|Your personal information\", \n        \"email|Your email address\", \n        \"phone|Your telephone number(s)\", \n        \"address|Your postal address\"\n    ], \n    \"createdTimestampAttribute\": \"createTimestamp\", \n    \"keypairName\": \"test\", \n    \"supportedIDTokenSigningAlgorithms\": [\n        \"HS256\", \n        \"HS512\", \n        \"RS256\", \n        \"HS384\"\n    ], \n    \"codeLifetime\": 6000, \n    \"accessTokenLifetime\": 5000, \n    \"issueRefreshToken\": true, \n    \"alwaysAddClaimsToToken\": false, \n    \"supportedSubjectTypes\": [\n        \"public\"\n    ], \n    \"defaultACR\": [], \n    \"jwtTokenLifetime\": 6000, \n    \"scopeImplementationClass\": \"org.forgerock.openam.oauth2.OpenAMScopeValidator\"\n}"
 		},
 		{
-			"folder": null,
-			"id": "f64884b8-9ad1-d051-d365-acb5edee7fc7",
 			"name": "Device & User Code Request",
 			"dataMode": "urlencoded",
 			"data": [],
@@ -1585,10 +1685,11 @@
 			"tests": "postman.setGlobalVariable(\"deviceCode\", JSON.parse(responseBody).device_code);\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"folder": null,
+			"id": "f64884b8-9ad1-d051-d365-acb5edee7fc7",
 			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
 		},
 		{
-			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
 			"id": "fccb5460-c6cc-4ade-1615-4f9fb665134d",
 			"name": "Uma Config",
 			"dataMode": "params",
@@ -1602,12 +1703,14 @@
 			"url": "{{openamUrl}}/json/uma/config",
 			"preRequestScript": "",
 			"tests": "",
+			"version": 2,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{}",
+			"folder": "e9df7f6d-cf2d-7664-6ff7-c6b4b8257490",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		},
 		{
-			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
 			"id": "fdc63f0c-7e4e-8f22-cd19-cd61f1f07533",
 			"name": "Introspect access token using Basic authorization",
 			"dataMode": "urlencoded",
@@ -1621,12 +1724,12 @@
 			"url": "{{openamUrl}}/oauth2/introspect?token={{access_token}}",
 			"preRequestScript": "",
 			"tests": "tests[\"Successful request\"] = responseCode.code === 200;\ntests[\"Token is a refresh token\"] = JSON.parse(responseBody).token_type === \"access_token\";\ntests[\"Token is active\"] = JSON.parse(responseBody).active;",
+			"version": 2,
 			"currentHelper": "basicAuth",
-			"helperAttributes": {
-				"username": "{{clientId}}",
-				"password": "{{clientSecret}}"
-			},
-			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548"
+			"helperAttributes": "{\"username\":\"{{clientId}}\",\"password\":\"{{clientSecret}}\"}",
+			"folder": "0486ecf5-bd17-48c8-4081-4c2c22a8cee5",
+			"collectionId": "2b49ba89-b8fa-a0bc-3ecf-62400bc3a548",
+			"isFromCollection": true
 		}
 	]
 }
